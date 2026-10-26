@@ -1,0 +1,77 @@
+﻿/* Sbply — admin. */
+.sbply-plans-editor {
+	padding: 0 12px 12px;
+}
+
+.sbply-plans-editor__title {
+	margin: 1em 0 0.25em;
+}
+
+.sbply-plans-editor__help {
+	margin: 0 0 0.75em;
+	color: #646970;
+}
+
+#sbply_product_data .sbply-plans-table input[type="text"] {
+	float: none;
+	width: 100%;
+}
+
+#sbply_product_data .sbply-plans-table select {
+	float: none;
+	width: auto;
+	max-width: 100%;
+}
+
+.sbply-plans-table td,
+.sbply-plans-table th {
+	vertical-align: middle;
+}
+
+.sbply-plan-row__billing {
+	white-space: nowrap;
+}
+
+.sbply-plans-table__actions {
+	width: 32px;
+	text-align: center;
+}
+
+.sbply-remove-plan {
+	font-size: 20px;
+	line-height: 1;
+	text-decoration: none;
+}
+
+.sbply-status {
+	display: inline-flex;
+	padding: 0 0.75em;
+	border-radius: 4px;
+	background: #e5e5e5;
+	color: #454545;
+	line-height: 2.5;
+	white-space: nowrap;
+}
+
+.sbply-status--active {
+	background: #c6e1c6;
+	color: #2c4700;
+}
+
+.sbply-status--on-hold {
+	background: #f8dda7;
+	color: #573b00;
+}
+
+.sbply-status--cancelled {
+	background: #eba3a3;
+	color: #570000;
+}
+
+.sbply-subscriptions .column-subscription {
+	width: 12%;
+}
+
+.sbply-subscriptions .column-status {
+	width: 9%;
+}
